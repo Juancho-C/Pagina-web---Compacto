@@ -1,75 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Informativa</title>
+    <title>Agencia de Publicidad</title>
+    <img src="https://compacto.com.co/wp-content/uploads/2022/03/logo-1.png" alt="Logo de la Agencia">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+            body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ebf3f7;
+    }
+    header {
+        background-color: hsl(194, 88%, 53%);
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        #header img {
+        width="150"
+        height="150"
+        border-radius: 50%;
+    }
+    }
 
-        header {
-            text-align: center;
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
+    nav {
+        background-color: #5b6469;
+        text-align: center;
+        padding: 1em 0;
+    }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
-        }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
 
+    nav a:hover {
+        background-color: #5b6469;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #9ddeee;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 600px) {
         nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
+            display: block;
+            margin: 5px 0;
         }
-
-        section {
-            margin: 20px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
+    }
     </style>
 </head>
-<body>
 
+<body>
     <header>
-        <h1>Página Informativa</h1>
+        <h1>Agencia de Publicidad</h1>
     </header>
 
     <nav>
-        <a href="#seccion1">Sección 1</a>
-        <a href="#seccion2">Sección 2</a>
-        <a href="#seccion3">Sección 3</a>
+        <a href="#somos">SOMOS</a>
+        <a href="#lo-que-ofrecemos">LO QUE OFRECEMOS</a>
+        <a href="#lo-hacemos">LO HACEMOS</a>
+        <a href="#porque-lo-creemos">PORQUE LO CREEMOS</a>
+        <a href="#hablemos">HABLEMOS</a>
     </nav>
 
-    <section id="seccion1">
-        <h2>Sección 1</h2>
-        <p>Contenido de la sección 1.</p>
+    <section id="somos">
+        <h2>SOMOS</h2>
+        <p>Texto sobre quiénes somos y nuestra misión.</p>
     </section>
 
-    <section id="seccion2">
-        <h2>Sección 2</h2>
-        <p>Contenido de la sección 2.</p>
+    <section id="lo-que-ofrecemos">
+        <h2>LO QUE OFRECEMOS</h2>
+        <p>Descripción de los servicios que ofrecemos.</p>
     </section>
 
-    <section id="seccion3">
-        <h2>Sección 3</h2>
-        <p>Contenido de la sección 3.</p>
+    <section id="lo-hacemos">
+        <h2>LO HACEMOS</h2>
+        <p>Detalles sobre cómo realizamos nuestro trabajo de publicidad.</p>
+    </section>
+
+    <section id="porque-lo-creemos">
+        <h2>PORQUE LO CREEMOS</h2>
+        <p>Explicación de la filosofía y valores de la agencia.</p>
+    </section>
+
+    <section id="hablemos">
+        <h2>HABLEMOS</h2>
+        <p>Formulario de contacto u otra información para iniciar una conversación.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Página Informativa. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Agencia de Publicidad</p>
     </footer>
-
 </body>
+
 </html>
